@@ -25,7 +25,7 @@ public class PessoaApplication implements CommandLineRunner  {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		Pessoa p1 = new Pessoa(0, "Kevelly", 23, "kevelly133@gmail.com");
-		Pessoa p2 = new Pessoa(0, "Rodrigo", 27, "rodrigo@gmail.com");
+		Pessoa p2 = new Pessoa(1, "Rodrigo", 27, "rodrigo@gmail.com");
 		
 		repository.saveAll(Arrays.asList(p1,p2));
 	}
